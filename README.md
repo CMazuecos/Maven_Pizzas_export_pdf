@@ -21,7 +21,15 @@ Este programa hará un informe sobre los ficheros de la pizzería Maven, limpiar
 - De cada pizza, se sacan los ingredientes de cada pizza y se van añadiendo a los pedidos de cada semana.
 - Cuando ya se tiene la recomendación hecha, se escirbe en un archivo pdf con el reporte ejecutivo.  
 ### Archivo pizzas.pdf
- 
+ - Portada
+ - Introducción al reporte
+ - Tabla con pedidos y cantidad
+ - Gráfica con 5 pedidos más y menos solicitados
+ - Breve descripción
+ - Pie chart con el porcentaje que se pide cada tamaño de pizza
+ - Análisis de ingredientes
+ - Gráfica con 10 ingredientes más y menos utilizados
+ - Análisis de las ganancias 
 ### Limpieza ficheros
 #### Fichero order_details
 - Columna quantity: cambiamos nans y valores inferiores a 1 por 1. Los valores que no son numéricos (one, two) se cambian por su correspondiente número.
